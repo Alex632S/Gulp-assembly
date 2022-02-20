@@ -1,0 +1,24 @@
+*, 
+*::after, 
+*::before {
+   box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.page__body {
+    max-width: #{$width-body + px};
+    margin: 0 auto;
+}
+.container {
+    width: #{$width-container + px};
+    padding: 0 #{$paddingX-container + px};
+    margin: 0 #{$marginX-container + px};
+}
