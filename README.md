@@ -5,11 +5,16 @@ Build uses this:
 - [jquery](https://github.com/jquery/jquery)
 
 First step it install node_modules.
-For this:
-> npm i
----
-To default start gulp:
-> gulp
+## For this:
+```
+npm i
+```
 
-To build start gulp:
-> gulp dist
+## To default start gulp:
+```
+gulp
+```
+## To build start gulp:
+```
+gulp dist
+```
